@@ -24,7 +24,7 @@ ruleset=全球直连,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
 custom_proxy_group=节点选择`select`[]自动选择`[]香港`[]台湾`[]新加坡`[]日本`[]美国`菲律宾|韩国|加拿大|德国|土耳其|英国|荷兰|阿根廷
-custom_proxy_group=自动选择`url-test`香港|新加坡|日本`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=自动选择`url-test`香港|新加坡|日本`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择
 custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT`[]节点选择
 custom_proxy_group=漏网之鱼`select`[]节点选择`[]全球直连
