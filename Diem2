@@ -13,6 +13,8 @@ ruleset=全球直连,https://raw.githubusercontent.com/dgjdnfj/clash_for_self-us
 ruleset=白名单代理,[]FINAL
 
 custom_proxy_group=白名单代理`select`[]香港`[]台湾`[]新加坡`[]日本`[]美国
+custom_proxy_group=全球直连`select`[]DIRECT`[]白名单代理
+custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT`[]白名单代理
 custom_proxy_group=香港`url-test`Hong Kong`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=台湾`url-test`Taiwan`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=新加坡`url-test`Singapore`http://www.gstatic.com/generate_204`300,,50
