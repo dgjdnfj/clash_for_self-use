@@ -6,7 +6,7 @@ ruleset=全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=全球直连,https://raw.githubusercontent.com/dgjdnfj/clash_for_self-use/main/CN-ip-cidr.list
+ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=白名单代理,[]FINAL
 
 custom_proxy_group=白名单代理`select`[]香港`[]台湾`[]新加坡`[]日本`[]美国
