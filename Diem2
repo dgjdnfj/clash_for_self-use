@@ -23,15 +23,19 @@ ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=全球直连,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
-custom_proxy_group=节点选择`select`[]香港`[]台湾`[]日本`[]新加坡`[]美国
+custom_proxy_group=节点选择`select`[]香港`[]台湾`[]韩国`[]日本`[]新加坡`[]土耳其`[]德国`[]英国`[]美国
 custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择
 custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT`[]节点选择
 custom_proxy_group=漏网之鱼`select`[]节点选择`[]全球直连
-custom_proxy_group=香港`url-test`香港`http://clients3.google.com/generate_204`900,,50
-custom_proxy_group=台湾`url-test`台湾`http://clients3.google.com/generate_204`900,,50
-custom_proxy_group=日本`url-test`日本`http://clients3.google.com/generate_204`900,,50
-custom_proxy_group=新加坡`url-test`新加坡`http://clients3.google.com/generate_204`900,,50
-custom_proxy_group=美国`url-test`美国`http://clients3.google.com/generate_204`900,,150
+custom_proxy_group=香港`url-test`Hong Kong`http://clients3.google.com/generate_204`900,,50
+custom_proxy_group=台湾`url-test`Taiwan`http://clients3.google.com/generate_204`900,,50
+custom_proxy_group=韩国`url-test`Korea`http://clients3.google.com/generate_204`900,,50
+custom_proxy_group=日本`url-test`Japan`http://clients3.google.com/generate_204`900,,50
+custom_proxy_group=新加坡`url-test`Singapore`http://clients3.google.com/generate_204`900,,50
+custom_proxy_group=土耳其`url-test`Turkey`http://clients3.google.com/generate_204`900,,150
+custom_proxy_group=德国`url-test`Germany`http://clients3.google.com/generate_204`900,,150
+custom_proxy_group=英国`url-test`U.K.`http://clients3.google.com/generate_204`900,,150
+custom_proxy_group=美国`url-test`U.S.`http://clients3.google.com/generate_204`900,,150
 
 enable_rule_generator=true
 overwrite_original_rules=true
